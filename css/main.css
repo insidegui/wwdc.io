@@ -1,0 +1,148 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+a:link, a:visited {
+	color:#24D1EB;
+}
+a:hover, a:active {
+	color:white;
+}
+
+body {
+	font-family:-apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+	background:black url(/images/background.png) repeat-x top center;
+	color:#C0C0C0;
+	text-align:center;
+}
+
+.primary {
+	color:#24D1EB;
+}
+
+section {
+	margin:40px 0;
+}
+
+#steve {
+	margin:24% 0;
+}
+
+#steve p {
+	font-size:64px;
+	letter-spacing:-1px;
+	color:white;
+	font-weight:600;
+}
+
+#identity #icon {
+	text-indent:-9000em;
+	overflow:hidden;
+	width:128px;
+	height:128px;
+	background:url(/images/icon.png) no-repeat center;
+	margin:32px auto;
+	background-size:128px 128px;
+}
+
+#identity {
+	margin-bottom:86px;
+}
+
+#identity h1 {
+	font-weight:600;
+	letter-spacing:-1px;
+	color:#E5E5E5;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        #identity #icon {
+			background-image:url(/images/icon@2x.png);
+		}
+}
+
+#hero {
+	width:80%;
+	margin:0 auto;
+}
+#hero img {
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.button {
+	text-decoration:none;
+	display:block;
+	border-radius:10px;
+	background-color:#1F1F1F;
+	color:white!important;
+	width:200px;
+	height:64px;
+	font-size:20px;
+	font-weight:600;
+	line-height:64px;
+}
+
+.button:hover, .button:active {
+	transition:background-color .3s, color .3s;
+	background-color:#efefef;
+	color:black!important;
+}
+
+.primary-bg {
+	background-color:#24D1EB;
+	color:white!important;
+}
+
+#description h3 {
+	font-weight:600;
+	font-size:24px;
+}
+
+#buttons-container {
+	margin:55px auto;
+	display:table;
+}
+
+#buttons-container a {
+	display:inline-block;
+	margin:20px 30px;
+	text-align:center;
+}
+
+.pitch {
+	font-size:24px;
+	font-weight:500;
+	line-height:29px;
+	letter-spacing:-1px;
+}
+.pitch strong {
+	font-weight:500;
+	color:#24D1EB;
+}
+.pitch.comming-soon {
+	margin-top:64px;
+}
+
+footer {
+	margin:134px 0 40px 0;
+}
+
+footer {
+	font-size:14px;
+	font-weight:400;
+}
+
+footer p {
+	margin:20px 0;
+}
+
+footer small {
+	color:#424242;
+	display:block;
+}
