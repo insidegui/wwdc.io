@@ -1,5 +1,5 @@
 # wwdc.io
 
-A collection of cool tech projects related to WWDC.
+The official website for the unofficial WWDC app for macOS.
 
 The website is available at [wwdc.io](https://wwdc.io).
