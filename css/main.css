@@ -146,3 +146,20 @@ footer small {
 	color:#424242;
 	display:block;
 }
+
+#others div {
+	padding:20px 0;
+}
+
+#others h3 {
+	padding-bottom:20px;
+	color:white!important;
+}
+
+#others div h4 {
+	padding-bottom:10px;
+}
+
+#others div h4 a {
+	text-decoration:none!important;
+}
