@@ -31,7 +31,6 @@ section {
 
 #steve p {
 	font-size:64px;
-	letter-spacing:-1px;
 	color:white;
 	font-weight:600;
 }
@@ -119,7 +118,6 @@ section {
 	font-size:24px;
 	font-weight:500;
 	line-height:29px;
-	letter-spacing:-1px;
 }
 .pitch strong {
 	font-weight:500;
@@ -127,6 +125,10 @@ section {
 }
 .pitch.comming-soon {
 	margin-top:64px;
+}
+
+.light {
+	font-weight:300;
 }
 
 footer {
