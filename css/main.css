@@ -118,6 +118,7 @@ section {
 	font-size:24px;
 	font-weight:500;
 	line-height:29px;
+	color: #FFFFFF
 }
 .pitch strong {
 	font-weight:500;
@@ -129,6 +130,7 @@ section {
 
 .light {
 	font-weight:300;
+	color: #C0C0C0
 }
 
 footer {
