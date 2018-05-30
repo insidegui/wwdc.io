@@ -40,7 +40,7 @@ section {
 	overflow:hidden;
 	width:128px;
 	height:128px;
-	background:url(/images/icon.png) no-repeat center;
+	background:url(/images/icon_v6.png) no-repeat center;
 	margin:32px auto;
 	background-size:128px 128px;
 }
@@ -60,7 +60,7 @@ section {
     only screen and (min--moz-device-pixel-ratio: 1.5),
     only screen and (min-device-pixel-ratio: 1.5) {
         #identity #icon {
-			background-image:url(/images/icon@2x.png);
+			background-image:url(/images/icon_v6@2x.png);
 		}
 }
 
@@ -118,6 +118,7 @@ section {
 	font-size:24px;
 	font-weight:500;
 	line-height:29px;
+	color: #FFFFFF
 }
 .pitch strong {
 	font-weight:500;
@@ -129,6 +130,7 @@ section {
 
 .light {
 	font-weight:300;
+	color: #C0C0C0
 }
 
 footer {
