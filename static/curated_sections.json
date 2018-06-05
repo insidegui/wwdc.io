@@ -1,0 +1,87 @@
+[{
+		"ordinal": -5,
+		"published": true,
+		"format": "_live",
+		"title": "Live Sessions",
+		"description": "",
+		"content": []
+	},
+	{
+		"ordinal": -4,
+		"published": true,
+		"format": "_next",
+		"title": "Up Next",
+		"description": "",
+		"content": []
+	},
+	{
+		"ordinal": -3,
+		"published": true,
+		"format": "_history",
+		"title": "Continue Watching",
+		"description": "",
+		"content": []
+	},
+	{
+		"ordinal": -2,
+		"published": true,
+		"format": "_favorites",
+		"title": "Your Favorites",
+		"description": "",
+		"content": []
+	},
+	{
+		"ordinal": -1,
+		"published": true,
+		"format": "curated_wwdc.io",
+		"title": "Creator's Favorites",
+		"description": "Rambo's favorite sessions",
+		"ios_color": "#3C5B72",
+		"tvos_light_style_color": "#3D5B73",
+		"tvos_dark_style_color": "#ACBDCB",
+		"image_type": "square",
+		"content": [{
+				"identifier": "wwdc2017-211",
+				"essay": "YnBsaXN0MDDUAQIDBAUGICFYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKYHCA8QFhxVJG51bGzTCQoLDA0OWE5TU3RyaW5nViRjbGFzc1xOU0F0dHJpYnV0ZXOAAoAFgANfEBpJIHJlYWxseSBsaWtlIHRoaXMgc2Vzc2lvbtMREgoTFBVXTlMua2V5c1pOUy5vYmplY3RzoKCABNIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNEaWN0aW9uYXJ5ohkbWE5TT2JqZWN00hcYHR5fEBJOU0F0dHJpYnV0ZWRTdHJpbmeiHxtfEBJOU0F0dHJpYnV0ZWRTdHJpbmdfEA9OU0tleWVkQXJjaGl2ZXLRIiNUcm9vdIABAAgAEQAaACMALQAyADcAPgBEAEsAVABbAGgAagBsAG4AiwCSAJoApQCmAKcAqQCuALkAwgDPANIA2wDgAPUA+AENAR8BIgEnAAAAAAAAAgEAAAAAAAAAJAAAAAAAAAAAAAAAAAAAASk=",
+				"bookmarks": [{
+						"body": "My favorite part",
+						"timecode": 180.0,
+						"duration": 0.0
+					},
+					{
+						"body": "My second favorite part, with duration",
+						"timecode": 180.0,
+						"duration": 60.0
+					}
+				]
+			},
+			{
+				"identifier": "wwdc2017-222"
+			},
+			{
+				"identifier": "wwdc2017-218"
+			},
+			{
+				"identifier": "wwdc2016-239"
+			},
+			{
+				"identifier": "wwdc2016-236"
+			},
+			{
+				"identifier": "wwdc2016-203"
+			},
+			{
+				"identifier": "wwdc2014-209"
+			},
+			{
+				"identifier": "wwdc2014-220"
+			}
+		],
+		"author": {
+			"name": "Guilherme Rambo",
+			"bio": "Guilherme Rambo is the creator of the unofficial WWDC app for macOS",
+			"avatar": "https://pbs.twimg.com/profile_images/932637040474316801/mhtK0Y2u_400x400.jpg",
+			"url": "https://guilhermerambo.me"
+		}
+	}
+]
