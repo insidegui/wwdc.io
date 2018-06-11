@@ -76,6 +76,7 @@ section {
 
 .button {
 	text-decoration:none;
+	cursor: pointer;
 	display:block;
 	border-radius:10px;
 	background-color:#1F1F1F;
