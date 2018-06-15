@@ -14,20 +14,6 @@
 	<meta property="og:image" content="https://wwdc.io/images/hero_v6@2x.png">
 	<meta property="og:site_name" content="WWDC for macOS"/>
 	<meta property="og:description" content="Watch all WWDC videos from this year and previous years."/>
-	
-	<script>
-		function reqListener () {
-		  window.location.href = this.response.assets[0].browser_download_url
-		}
-
-		function onClickDownload() {
-			var releaseReq = new XMLHttpRequest();
-			releaseReq.addEventListener("load", reqListener);
-			releaseReq.responseType = "json"
-			releaseReq.open("GET", "https://api.github.com/repos/insidegui/wwdc/releases/latest");
-		releaseReq.send();
-		}
-	</script>
 </head>
 <body>
 	
@@ -51,7 +37,7 @@
 			<a class="button" href="https://github.com/insidegui/WWDC" title="This is an open source project, you can find the code and contribute on GitHub">
 				Fork on GitHub
 			</a>
-			<a class="button primary-bg" onclick="onClickDownload()">
+			<a class="button primary-bg" href="https://cdn.wwdc.io/WWDC_latest.zip">
 				Download
 			</a>
 		</div>
