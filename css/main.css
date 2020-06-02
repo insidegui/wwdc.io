@@ -3,6 +3,19 @@
 	padding:0;
 }
 
+@font-face {
+  font-family: "SF Rounded";
+  font-weight: 400;
+  src: url("/fonts/SF-Pro-Rounded-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Rounded";
+  font-weight: 600;
+  src: url("/fonts/SF-Pro-Rounded-Semibold.otf");
+}
+
 a:link, a:visited {
 	color:#24D1EB;
 }
@@ -10,29 +23,22 @@ a:hover, a:active {
 	color:white;
 }
 
+html {
+	background:#202123 url(/images/background.jpg) no-repeat top center fixed;
+}
+
 body {
 	font-family:-apple-system, 'Helvetica Neue', Helvetica, sans-serif;
-	background:black url(/images/background.png) repeat-x top center;
-	color:#C0C0C0;
+	color:#FFF;
 	text-align:center;
 }
 
 .primary {
-	color:#24D1EB;
+	color:#3478F6;
 }
 
 section {
 	margin:40px 0;
-}
-
-#steve {
-	margin:24% 0;
-}
-
-#steve p {
-	font-size:64px;
-	color:white;
-	font-weight:600;
 }
 
 #identity #icon {
@@ -50,6 +56,7 @@ section {
 }
 
 #identity h1 {
+	font-family: "SF Rounded";
 	font-weight:600;
 	letter-spacing:-1px;
 	color:#E5E5E5;
@@ -102,6 +109,12 @@ section {
 #description h3 {
 	font-weight:600;
 	font-size:24px;
+	font-family: "SF Rounded";
+}
+
+h4 {
+	font-family: "SF Rounded";
+	font-size:24px;
 }
 
 #buttons-container {
@@ -118,19 +131,26 @@ section {
 .pitch {
 	font-size:24px;
 	font-weight:500;
-	line-height:29px;
+	line-height:34px;
 	color: #FFFFFF
 }
 .pitch strong {
-	font-weight:500;
+	font-weight:600;
 	color:#24D1EB;
+	font-family: "SF Rounded";
 }
 .pitch.comming-soon {
 	margin-top:64px;
 }
 
+span.subpitch {
+	margin-top:12px;
+	display:block;
+	font-size:18px;
+	line-height:32px;
+}
+
 .light {
-	font-weight:300;
 	color: #C0C0C0
 }
 
