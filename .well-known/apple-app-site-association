@@ -9,8 +9,8 @@
 		"details": [{
 			"appID": "8C7439RJLG.io.wwdc.app",
 			"paths": [
-				"*",
-				"/"
+				"NOT /",
+				"*"
 			]
 		}]
 	}
