@@ -1,0 +1,191 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+  font-family: "SF Rounded";
+  font-weight: 400;
+  src: url("/fonts/SF-Pro-Rounded-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Rounded";
+  font-weight: 600;
+  src: url("/fonts/SF-Pro-Rounded-Semibold.otf");
+}
+
+a:link, a:visited {
+	color:#24D1EB;
+}
+a:hover, a:active {
+	color:white;
+}
+
+html {
+	background:#202123 url(/images/background.jpg) no-repeat top center fixed;
+}
+
+body {
+	font-family:-apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+}
+
+.primary {
+	color:#3478F6;
+}
+
+section {
+	margin:40px 0;
+	padding:0 20px;
+}
+
+#identity #icon {
+	text-indent:-9000em;
+	overflow:hidden;
+	width:128px;
+	height:128px;
+	background:url(/images/icon_v7.png) no-repeat center;
+	margin:32px auto;
+	background-size:128px 128px;
+}
+
+#identity {
+	margin-bottom:86px;
+}
+
+#identity h1 {
+	font-family: "SF Rounded";
+	font-weight:600;
+	letter-spacing:-1px;
+	color:#E5E5E5;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+        #identity #icon {
+			background-image:url(/images/icon_v7@2x.png);
+		}
+}
+
+#hero {
+	width:80%;
+	margin:0 auto;
+}
+#hero img {
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.button {
+	text-decoration:none;
+	cursor: pointer;
+	display:block;
+	border-radius:10px;
+	background-color:#1F1F1F;
+	color:white!important;
+	width:200px;
+	height:64px;
+	font-size:20px;
+	font-weight:600;
+	line-height:64px;
+}
+
+.button:hover, .button:active {
+	transition:background-color .3s, color .3s;
+	background-color:#efefef;
+	color:black!important;
+}
+
+.primary-bg {
+	background-color:#24D1EB;
+	color:white!important;
+}
+
+#description h3 {
+	font-weight:600;
+	font-size:24px;
+	font-family: "SF Rounded";
+}
+
+h4 {
+	font-family: "SF Rounded";
+	font-size:24px;
+}
+
+#buttons-container {
+	margin:55px auto;
+	display:table;
+}
+
+#buttons-container a {
+	display:inline-block;
+	margin:20px 30px;
+	text-align:center;
+}
+
+.pitch {
+	font-size:24px;
+	font-weight:500;
+	line-height:34px;
+	color: #FFFFFF
+}
+.pitch strong {
+	font-weight:600;
+	color:#24D1EB;
+	font-family: "SF Rounded";
+}
+.pitch.comming-soon {
+	margin-top:64px;
+}
+
+span.subpitch {
+	margin-top:12px;
+	display:block;
+	font-size:18px;
+	line-height:32px;
+}
+
+.light {
+	color: #C0C0C0
+}
+
+footer {
+	margin:134px 0 40px 0;
+}
+
+footer {
+	font-size:14px;
+	font-weight:400;
+}
+
+footer p {
+	margin:20px 0;
+}
+
+footer small {
+	color:#424242;
+	display:block;
+}
+
+#others div {
+	padding:20px 0;
+}
+
+#others h3 {
+	padding-bottom:20px;
+	color:white!important;
+}
+
+#others div h4 {
+	padding-bottom:10px;
+}
+
+#others div h4 a {
+	text-decoration:none!important;
+}
