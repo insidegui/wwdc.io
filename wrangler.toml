@@ -1,0 +1,9 @@
+name = "wwdcdotio"
+type = "webpack"
+account_id = "ad416a1a764817756a4bddda006d7036"
+workers_dev = false
+route = "wwdc.io/*"
+zone_id = "66c789a33d1c4e1ecb940e18b9e85260"
+
+[site]
+bucket = "./public"
