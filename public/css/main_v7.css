@@ -189,3 +189,12 @@ footer small {
 #others div h4 a {
 	text-decoration:none!important;
 }
+
+p#macstadium {
+	padding:12px;
+	border-radius: 16px;
+	background-color:rgba(255,255,255,0.9);
+	width:128px;
+	height:52px;
+	margin:20px auto;
+}
